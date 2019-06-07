@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 4.2.6'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -103,11 +103,11 @@ gem 'js-routes'
 gem 'i18n-js', '>= 3.0.0.rc11'
 
 # Spree gems
-gem 'spree', '~> 3.7.2'
+gem 'spree', '~> 3.1.0'
 gem 'spree_gateway'
 gem 'spree_auth_devise'
 gem 'spree_analytics_trackers'
-gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch: 'master'
+gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch: '3-1-stable'
 
 # Sentry Client
 gem 'sentry-raven'
